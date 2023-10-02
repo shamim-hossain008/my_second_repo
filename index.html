@@ -8,12 +8,13 @@
 <body>
     <!--sing up from-->
      <from action="#" method="post">
-<h1 style="text-align: center;">Sing Up From</h1> <hr>
+<h1 style="text-align: center;">Sing Up Form</h1> <hr>
 <br>
 <label for="user"> Name: </label>
 <input type="text" id="user" name="user" placeholder="User Name"> <br>
+<br>
 <lable for="email"> Email: </lable>
-<input type="email" id="email" name="usermail" placeholder=" User Mail" required>
+<input type="email" id="email" name="usermail" placeholder=" User Mail" required><br>
 <br>
 <label for="pass"> Password: </label>
 <input type="password" id="pass" name="password" placeholder="Password">
@@ -27,7 +28,18 @@
 <option value="+060">+060</option>
 </select>
 <input type="number" id="phn" name="phone" placeholder="1234567890" required>
-<br>
+<br> 
+<label for="country">Country </label>   
+<input list="con">
+<datalist id="con">
+<option value="Bangladesh"></option>    
+<option value="Pakistin"></option> 
+<option value="India"></option> 
+<option value="Malaysia"></option> 
+
+</datalist>
+<br> 
+
 Gender:
 <input type="radio" id="gender1" name="gender">
 <lavel for="gender1"> Male </lavel>
@@ -35,11 +47,30 @@ Gender:
 <lavel for="gender2"> Female </lavel>
 <input type="radio" id="gender3" name="gender">
 <lavel for="gender3"> Other </lavel>
-<br>
+<br> <br>
 <lavel for="date"> Date Of Birth:</lavel>
 <input type="date" id="date" name="dob">
+<br> <br>
+<lavel for="time"> Time: </lavel>
+<input type="time" id="time" name="tm">
+<br> <br>
+<lavel for="colors">Colors: </lavel>
+<input type="color" id="colors" name="col">
+<br><br>
+<lavel for="file">Chooose Photo: </lavel>
+<Input type="file" id="file" name="fl">
+<br> <br>
+<input type="checkbox" id="vehicle1" name="vec">
+<lavel for="vehicle1" > I have a Bike </lavel>
+<input type="checkbox" id="vehicle2" name="vec">
+<lavel for="vehicle2"> I have a Bycycle</lavel>
+<br> <br>
+<textarea name="comment"; clos="30"; rows="10">Comment Here </textarea>
 <br>
-     
+<input type="submit"; value="Send">
+<input type="reset"; value="Reset">
+
+
 
 </from> 
 </body>
