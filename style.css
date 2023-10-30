@@ -1,0 +1,47 @@
+marquee{ 
+    color: red;
+    font-size: 50px;
+}
+h1{
+    background-color: blue;
+    font-size: 80px;
+    font-style: oblique;
+    color:aliceblue;
+    position:sticky;
+    top: 0;
+}
+from{
+    color: blue;
+}
+
+.box1{
+    width: 600px;
+    height:400px;
+    background-color:green;
+    position:relative;
+}
+.box2{
+    width:300px;
+    height: 200px;
+    background-color: red;
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    border-radius: 50%;
+
+}
+p{
+    padding-bottom: 1000px;
+}
+.shamim{
+    color: red;
+    font-size: 50px;
+    position: fixed;
+    bottom: 0;
+    right: 0;  
+    background-color: aqua;
+    font-style:oblique;
+}
