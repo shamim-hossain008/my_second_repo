@@ -31,10 +31,6 @@ from{
     top: 0;
     margin: auto;
     border-radius: 50%;
-
-}
-p{
-    padding-bottom: 1000px;
 }
 .shamim{
     color: red;
@@ -45,3 +41,39 @@ p{
     background-color: aqua;
     font-style:oblique;
 }
+.box3{
+    width: 400px;
+    height: 200px;
+    background-color: brown;
+}
+.box4{
+    width:400px;
+    height:200px;
+    background-color: blue;
+}
+.box5{
+    width: 400px;
+    height: 200px;
+    background-color: black;
+}
+.box6{
+    width: 400px;
+    height:200px;
+    background-color:green;
+}
+.box3, .box4, .box5, .box6{
+    float: left;
+    margin: auto;
+}
+
+p{
+    padding-bottom: 300px;
+}
+
+.box-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}   
