@@ -7,18 +7,25 @@ h1{
     font-size: 80px;
     font-style: oblique;
     color:aliceblue;
-    position:sticky;
-    top: 0;
+    
+  
 }
 from{
     color: blue;
+}
+
+.header{
+    position: sticky;
+    top: 0;
+    z-index: inherit;
+
 }
 
 .box1{
     width: 600px;
     height:400px;
     background-color:green;
-    position:relative;
+    position: relative;
 }
 .box2{
     width:300px;
