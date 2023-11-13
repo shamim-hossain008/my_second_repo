@@ -1,133 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Second Repo</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <!--sing up from-->
-     <from action="#" method="post">
-        <div class="header">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <from action="#" method="post">
+      <h1 style="text-align: center">Sing Up Form</h1>
+      <!--Header % Navbar -->
+      <header>
+        <div class="navbar">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Blog</a></li>
+            <li>
+              <a href="#">Services</a>
+              <ul>
+                <li>Graphics</li>
+                <li>Web Desing</li>
+                <li>Web Development</li>
+              </ul>
+            </li>
 
-            <h1 style="text-align: center;">Sing Up Form</h1> <hr>
+            <li><a href="#">About Us</a></li>
+          </ul>
         </div>
-<br>
-<label for="user"> Name: </label>
-<input type="text" id="user" name="user" placeholder="User Name"> <br>
-<br>
-<lable for="email"> Email: </lable>
-<input type="email" id="email" name="usermail" placeholder=" User Mail" required><br>
-<br>
-<label for="pass"> Password: </label>
-<input type="password" id="pass" name="password" placeholder="Password">
-<br>
-<label for="phn"> Phone:</label> <br>
-<!--add contry code-->
-<select name="code"> 
-<option value="+880">+880</option>
-<option value="+990">+990</option>
-<option value="+110">+110</option>
-<option value="+060">+060</option>
-</select>
-<input type="number" id="phn" name="phone" placeholder="1234567890" required>
-<br> 
-<label for="country">Country </label>   
-<input list="con">
-<datalist id="con"><select name="" id=""></select>
-<option value="Bangladesh"></option>    
-<option value="Pakistin"></option> 
-<option value="India"></option> 
-<option value="Malaysia"></option> 
+      </header>
 
-</datalist>
-<br> 
+      <br />
+      <!--sing up from-->
+      <label for="user"> Name: </label>
+      <input type="text" id="user" name="user" placeholder="User Name" /> <br />
+      <br />
+      <lable for="email"> Email: </lable>
+      <input
+        type="email"
+        id="email"
+        name="usermail"
+        placeholder=" User Mail"
+        required
+      /><br />
+      <br />
+      <label for="pass"> Password: </label>
+      <input type="password" id="pass" name="password" placeholder="Password" />
+      <br />
+      <label for="phn"> Phone:</label> <br />
+      <!--add contry code-->
+      <select name="code">
+        <option value="+880">+880</option>
+        <option value="+990">+990</option>
+        <option value="+110">+110</option>
+        <option value="+060">+060</option>
+      </select>
+      <input
+        type="number"
+        id="phn"
+        name="phone"
+        placeholder="1234567890"
+        required
+      />
+      <br />
+      <label for="country">Country </label>
+      <input list="con" />
+      <datalist id="con">
+        <select name="" id=""></select>
+        <option value="Bangladesh"></option>
+        <option value="Pakistin"></option>
+        <option value="India"></option>
+        <option value="Malaysia"></option>
+      </datalist>
+      <br />
 
-Gender:
-<input type="radio" id="gender1" name="gender">
-<lavel for="gender1"> Male </lavel>
-<input type="radio" id="gender2" name="gender">
-<lavel for="gender2"> Female </lavel>
-<input type="radio" id="gender3" name="gender">
-<lavel for="gender3"> Other </lavel>
-<br> <br>
-<lavel for="date"> Date Of Birth:</lavel>
-<input type="date" id="date" name="dob">
-<br> <br>
-<lavel for="time"> Time: </lavel>
-<input type="time" id="time" name="tm">
-<br> <br>
-<lavel for="colors">Colors: </lavel>
-<input type="color" id="colors" name="col">
-<br><br>
-<lavel for="file">Chooose Photo: </lavel>
-<Input type="file" id="file" name="fl">
-<br> <br>
-<input type="checkbox" id="vehicle1" name="vec">
-<lavel for="vehicle1" > I have a Bike </lavel>
-<input type="checkbox" id="vehicle2" name="vec">
-<lavel for="vehicle2"> I have a Bycycle</lavel>
-<br> <br>
-<textarea name="comment"; clos="30"; rows="10">Comment Here </textarea>
-<br>
-<input type="submit"; value="Send">
-<input type="reset"; value="Reset">
-<br>
-</from>
+      Gender:
+      <input type="radio" id="gender1" name="gender" />
+      <lavel for="gender1"> Male </lavel>
+      <input type="radio" id="gender2" name="gender" />
+      <lavel for="gender2"> Female </lavel>
+      <input type="radio" id="gender3" name="gender" />
+      <lavel for="gender3"> Other </lavel>
+      <br />
+      <br />
+      <lavel for="date"> Date Of Birth:</lavel>
+      <input type="date" id="date" name="dob" />
+      <br />
+      <br />
+      <lavel for="time"> Time: </lavel>
+      <input type="time" id="time" name="tm" />
+      <br />
+      <br />
+      <lavel for="colors">Colors: </lavel>
+      <input type="color" id="colors" name="col" />
+      <br /><br />
+      <lavel for="file">Chooose Photo: </lavel>
+      <input type="file" id="file" name="fl" />
+      <br />
+      <br />
+      <input type="checkbox" id="vehicle1" name="vec" />
+      <lavel for="vehicle1"> I have a Bike </lavel>
+      <input type="checkbox" id="vehicle2" name="vec" />
+      <lavel for="vehicle2"> I have a Bycycle</lavel>
+      <br />
+      <br />
+      <textarea name="comment" ; clos="30" ; rows="10">Comment Here </textarea>
+      <br />
+      <input type="submit" ; value="Send" />
+      <input type="reset" ; value="Reset" />
+      <br />
+    </from>
 
-<br>
-<marquee> Shamim Hossain </marquee>
-<br>
+    <br />
+    <marquee> Shamim Hossain </marquee>
+    <br />
 
-<!-- Flag -->
-<div class="box1">
-<div class="box2"></div>
-</div> <br>
+    <!-- Flag -->
+    <div class="box1">
+      <div class="box2"></div>
+    </div>
+    <br />
 
-<div class="shamim">
-Shamim Hossain
-</div>
+    <div class="shamim">Shamim Hossain</div>
 
-<!-- Box -->
-<div class="box-container">
-    <div class="box3"></div>
-    <div class="box4"></div>
-    <div class="box5"></div>
+    <!-- Box -->
+    <div class="box-container">
+      <div class="box3"></div>
+      <div class="box4"></div>
+      <div class="box5"></div>
+    </div>
+    <!--Pseudo class-->
+    <li>
+      <h3>Lorem ipsum dolor sit amet.</h3>
+      <h3>Lorem ipsum dolor sit amet.</h3>
+      <h3>Lorem ipsum dolor sit amet.</h3>
+      <h3>Lorem ipsum dolor sit amet.</h3>
+    </li>
 
-</div>
-<!--Pseudo class--> 
-<li>
-    <h3>Lorem ipsum dolor sit amet.</h3>
-    <h3>Lorem ipsum dolor sit amet.</h3>
-    <h3>Lorem ipsum dolor sit amet.</h3>
-    <h3>Lorem ipsum dolor sit amet.</h3>
-</li>
+    <!--Pseudo Element-->
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quia quas
+      molestiae tempora ea dolorum consectetur nemo dignissimos aut
+      reprehenderit.
+    </p>
+    <!--opacity-->
+    <img src="love_2.jpg" alt="shamim" />
 
-<!--Pseudo Element-->
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quia quas molestiae tempora ea dolorum consectetur nemo dignissimos aut reprehenderit.</p>
-<!--opacity-->
-<img src="love_2.jpg" alt="shamim">
+    <div class="bg">
+      <div class="box">
+        <h2>Shamim</h2>
+      </div>
+    </div>
 
-<div class="bg">
-<div class="box"> 
-    <h2>Shamim</h2>
-</div> 
-</div>
-
-<div class="social">
-
-</div>
-<div class="transform">
-<h4> CSS transform</h4>
-<div class="box7">
-<h5> Shamim Hossain</h5>
-
-</div>
-</div>
-
-
-
-
-</body>
+    <div class="social"></div>
+    <div class="transform">
+      <h4>CSS transform</h4>
+      <div class="box7">
+        <h5>Shamim Hossain</h5>
+      </div>
+    </div>
+  </body>
 </html>
